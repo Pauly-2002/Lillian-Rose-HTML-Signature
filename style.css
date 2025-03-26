@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+table {
+  width: 600px;
+  border-collapse: collapse;
+  background: rgb(163, 104, 0);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+td {
+  padding: 15px;
+  vertical-align: top;
+}
+.profile-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.info {
+  font-size: 14px;
+  color: #000000;
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Brush Script MT", cursive;
+  color: #ffffff;
+}
+.contact-icons {
+  color: #000000;
+  font-size: 14px;
+}
+.social-icons img {
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.website {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
